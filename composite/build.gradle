@@ -1,0 +1,6 @@
+tasks.register('assembleDebug') {
+    dependsOn gradle.includedBuild('CompositeConsumer').task(':app:assembleDebug')
+}
+tasks.register('installDebug') {
+    dependsOn gradle.includedBuild('CompositeConsumer').task(':app:installDebug')
+}

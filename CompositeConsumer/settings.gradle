@@ -1,0 +1,5 @@
+rootProject.name='CompositeConsumer'
+include ':app'
+
+// With this commented out, project cannot be built from AS 3.6 RC 1
+//includeBuild('../CompositeProducer')
